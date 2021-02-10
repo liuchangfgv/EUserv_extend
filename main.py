@@ -110,7 +110,7 @@ def check(sess_id, session):
 
 if __name__ == "__main__":
     if not USERNAME or not PASSWORD:
-        print("你没有添加任何账户")
+        print("你没有添加任何账户ne")
         exit(1)
     user_list = USERNAME.strip().split()
     passwd_list = PASSWORD.strip().split()
